@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul 
+{
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+}
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
+.con
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img 
+{
+    width: 120px;
+}
+nav ul 
+{
+    display: flex;
+}
+nav ul li a
+{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: block;
+    padding: 24px;
+}
+.rel 
+{
+    position: relative;
+}
+.abs
+{
+    position: absolute;
+    bottom: 55%;
+    left: 100px;
+    color: #fff;
+}
+.abs h1 
+{
+    font-size: 55px;
+}
+.btn 
+{
+    background: green;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 50px;
+}
+.title
+{
+    font-size: 43px;
+}
+.sub 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    padding: 30px 0;
+}
+.counter
+{
+    padding: 40px 0;
+}
+.cbox 
+{
+    text-align: center;
+    border: 1px solid green;
+    padding: 40px;
+    flex-grow: 1;
+    border-radius: 6px;
+}
+.gap
+{
+    gap: 40px;
+}
+.cbox i 
+{
+    font-size: 55px;
+    color: green;
+}
+.causes
+{
+    padding: 40px 0;
+}
+.c-inner
+{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.wrap
+{
+    flex-wrap: wrap;
+}
+.fbox
+{
+    width: 30%;
+}
+.w-100
+{
+    width: 100%;
+}
+.quote
+{
+    background: url(https://preview.colorlib.com/theme/charity2/img/background-1.jpg.webp);
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+.events
+{
+    padding: 30px 0;
+}
+
+.thumb
+{
+    display: flex;
+    gap: 20px;
+}
+.thumb-img img
+{
+    width: 220px;
+}
+footer 
+{
+    background: #F4F4F8;
+    padding:30px 0 ;
+}
+footer  .con 
+{
+    align-items: start;
+    flex-wrap: wrap;
+}
+.a
+{
+    width: 25%;
+}
+.b 
+{
+    width: 50%;
+}
